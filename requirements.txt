@@ -1,45 +1,127 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: linux-64
-_libgcc_mutex=0.1=conda_forge
-_openmp_mutex=4.5=2_gnu
-brotlipy=0.7.0=py39hb9d737c_1005
-bzip2=1.0.8=h7f98852_4
-ca-certificates=2022.9.24=ha878542_0
-certifi=2022.9.24=pyhd8ed1ab_0
-cffi=1.15.1=py39he91dace_2
-charset-normalizer=2.1.1=pyhd8ed1ab_0
-colorama=0.4.6=pyhd8ed1ab_0
-conda=22.9.0=py39hf3d152e_2
-conda-package-handling=1.9.0=py39hb9d737c_1
-cryptography=38.0.3=py39h3ccb8fc_0
-idna=3.4=pyhd8ed1ab_0
-ld_impl_linux-64=2.39=hcc3a1bd_1
-libffi=3.4.2=h7f98852_5
-libgcc-ng=12.2.0=h65d4601_19
-libgomp=12.2.0=h65d4601_19
-libnsl=2.0.0=h7f98852_0
-libsqlite=3.40.0=h753d276_0
-libuuid=2.32.1=h7f98852_1000
-libzlib=1.2.13=h166bdaf_4
-ncurses=6.3=h27087fc_1
-openssl=3.0.7=h166bdaf_0
-pip=22.3.1=pyhd8ed1ab_0
-pycosat=0.6.4=py39hb9d737c_1
-pycparser=2.21=pyhd8ed1ab_0
-pyopenssl=22.1.0=pyhd8ed1ab_0
-pysocks=1.7.1=pyha2e5f31_6
-python=3.9.15=hba424b6_0_cpython
-python_abi=3.9=3_cp39
-readline=8.1.2=h0f457ee_0
-requests=2.28.1=pyhd8ed1ab_1
-ruamel_yaml=0.15.80=py39hb9d737c_1008
-setuptools=65.5.1=pyhd8ed1ab_0
-tk=8.6.12=h27826a3_0
-toolz=0.12.0=pyhd8ed1ab_0
-tqdm=4.64.1=pyhd8ed1ab_0
-tzdata=2022f=h191b570_0
-urllib3=1.26.13=pyhd8ed1ab_0
-wheel=0.38.4=pyhd8ed1ab_0
-xz=5.2.6=h166bdaf_0
-yaml=0.2.5=h7f98852_2
+anyio==3.6.2
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+arrow==1.2.3
+asttokens==2.2.1
+async-generator==1.10
+attrs==23.1.0
+backcall==0.2.0
+beautifulsoup4==4.12.2
+bleach==6.0.0
+boltons @ file:///C:/b/abs_707eo7c09t/croot/boltons_1677628723117/work
+brotlipy==0.7.0
+bs4==0.0.1
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+cffi @ file:///C:/b/abs_49n3v2hyhr/croot/cffi_1670423218144/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
+comm==0.1.3
+conda==23.3.1
+conda-content-trust @ file:///C:/Windows/TEMP/abs_4589313d-fc62-4ccc-81c0-b801b4449e833j1ajrwu/croots/recipe/conda-content-trust_1658126379362/work
+conda-package-handling @ file:///C:/b/abs_fcga8w0uem/croot/conda-package-handling_1672865024290/work
+conda_package_streaming @ file:///C:/b/abs_0e5n5hdal3/croot/conda-package-streaming_1670508162902/work
+cryptography @ file:///C:/b/abs_8ecplyc3n2/croot/cryptography_1677533105000/work
+DateTime==5.1
+debugpy==1.6.7
+decorator==5.1.1
+defusedxml==0.7.1
+exceptiongroup==1.1.1
+executing==1.2.0
+fastjsonschema==2.16.3
+fqdn==1.5.1
+h11==0.14.0
+idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
+ipykernel==6.22.0
+ipython==8.13.1
+ipython-genutils==0.2.0
+ipywidgets==8.0.6
+isoduration==20.11.0
+jedi==0.18.2
+Jinja2==3.1.2
+jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
+jsonpointer==2.1
+jsonschema==4.17.3
+jupyter==1.0.0
+jupyter-console==6.6.3
+jupyter-events==0.6.3
+jupyter_client==8.2.0
+jupyter_core==5.3.0
+jupyter_server==2.5.0
+jupyter_server_terminals==0.4.4
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==3.0.7
+MarkupSafe==2.1.2
+matplotlib-inline==0.1.6
+menuinst @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_455sf5o0ct/croots/recipe/menuinst_1661805970842/work
+mistune==2.0.5
+nbclassic==0.5.6
+nbclient==0.7.4
+nbconvert==7.3.1
+nbformat==5.8.0
+nest-asyncio==1.5.6
+notebook==6.5.4
+notebook_shim==0.2.3
+numpy==1.24.3
+outcome==1.2.0
+packaging @ file:///C:/b/abs_ed_kb9w6g4/croot/packaging_1678965418855/work
+pandas==2.0.1
+pandocfilters==1.5.0
+parso==0.8.3
+pickleshare==0.7.5
+platformdirs==3.5.0
+pluggy @ file:///C:/ci/pluggy_1648042746254/work
+prometheus-client==0.16.0
+prompt-toolkit==3.0.38
+psutil==5.9.5
+pure-eval==0.2.2
+pycosat @ file:///C:/b/abs_4b1rrw8pn9/croot/pycosat_1666807711599/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments==2.15.1
+pyOpenSSL @ file:///C:/b/abs_552w85x1jz/croot/pyopenssl_1677607703691/work
+pyrsistent==0.19.3
+PySocks @ file:///C:/ci_310/pysocks_1642089375450/work
+python-dateutil==2.8.2
+python-dotenv==1.0.0
+python-json-logger==2.0.7
+pytz==2023.3
+pywin32==306
+pywinpty==2.0.10
+PyYAML==6.0
+pyzmq==25.0.2
+qtconsole==5.4.2
+QtPy==2.3.1
+regex==2023.3.23
+requests @ file:///C:/b/abs_80_edxtvhu/croot/requests_1678709752318/work
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+ruamel.yaml @ file:///C:/b/abs_30ee5qbthd/croot/ruamel.yaml_1666304562000/work
+ruamel.yaml.clib @ file:///C:/b/abs_aarblxbilo/croot/ruamel.yaml.clib_1666302270884/work
+selenium==4.9.0
+Send2Trash==1.8.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sniffio==1.3.0
+sortedcontainers==2.4.0
+soupsieve==2.4.1
+stack-data==0.6.2
+terminado==0.17.1
+tinycss2==1.2.1
+toolz @ file:///C:/b/abs_cfvk6rc40d/croot/toolz_1667464080130/work
+tornado==6.3.1
+tqdm @ file:///C:/b/abs_f76j9hg7pv/croot/tqdm_1679561871187/work
+traitlets==5.9.0
+trio==0.22.0
+trio-websocket==0.10.2
+tzdata==2023.3
+uri-template==1.2.0
+urllib3 @ file:///C:/b/abs_3ce53vrdcr/croot/urllib3_1680254693505/work
+wcwidth==0.2.6
+webcolors==1.13
+webdriver-manager==3.8.6
+webencodings==0.5.1
+websocket-client==1.5.1
+widgetsnbextension==4.0.7
+win-inet-pton @ file:///C:/ci_310/win_inet_pton_1642658466512/work
+wincertstore==0.2
+wsproto==1.2.0
+zope.interface==6.0
+zstandard==0.19.0
