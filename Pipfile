@@ -4,12 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+regex = "*"
 selenium = "*"
 webdriver-manager = "*"
 bs4 = "*"
 requests = "*"
 
 [dev-packages]
+jupyter = "*"
 
 [requires]
 python_version = "3.12"
