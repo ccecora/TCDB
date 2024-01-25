@@ -9,6 +9,7 @@ selenium = "*"
 webdriver-manager = "*"
 bs4 = "*"
 requests = "*"
+pokemontcgsdk = "*"
 
 [dev-packages]
 jupyter = "*"
